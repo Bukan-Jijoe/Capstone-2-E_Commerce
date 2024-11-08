@@ -40,6 +40,9 @@ The architure is a simple LTSM based RNN where it have one layers of Bi-directio
     - Bi-directional LTSM Layer (32, return_sequence = False)
     - Dense Layer (4 nodes, softmax activation)
       
+![Model Summary](https://github.com/user-attachments/assets/2c51e3d0-c72c-4ca9-b2ee-d020c24820db)
+![Model Architecture](https://github.com/user-attachments/assets/c201d864-5287-40c2-9d47-ca9a4efe1a2d)
+
 9. Model Compiler
     - Optimizer = Adam (Default)
     - loss function = sparse_categorical_crossentropy
@@ -53,14 +56,22 @@ The architure is a simple LTSM based RNN where it have one layers of Bi-directio
 11. Evaluation & Classification Report
     - Here we can see the loss and accuracy of model
     - Using classification report, we can see it's precision, recall, f1-score, and support
+      
+![Model Accuracy](https://github.com/user-attachments/assets/cd9f80f9-e005-4435-8e74-b6c794d49ae8)
+![Model Performance](https://github.com/user-attachments/assets/bd7b98e3-aa04-46df-987d-e2bd15c1f254)
+![Model Loss](https://github.com/user-attachments/assets/7d5aee34-c3b1-4cd8-8767-1823a608b683)
 
 12. Prediction of the Model
     - We test the model with first 20 testing dataset and compared it with real values
     - As you can see, the model managed to predict accurately
+         
+![Model Predicted Output](https://github.com/user-attachments/assets/d0ce7684-cd95-451a-bc7c-43affc6be268)
 
 13. Last Step
     - for my last step, I saved necessary function such as Model, Tokenizer, Label Encoder
       
+![Model Save](https://github.com/user-attachments/assets/f359a3b6-b8e0-4740-9a23-7019716277da)
+
 ## Acknowledgements
 
 - Also thanks to my SHRDC Trainers for giving me the opportunity and knowledges about coding, machine learning and deep learning
