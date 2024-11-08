@@ -58,8 +58,9 @@ The architure is a simple LTSM based RNN where it have one layers of Bi-directio
     - Using classification report, we can see it's precision, recall, f1-score, and support
       
 ![Model Accuracy](https://github.com/user-attachments/assets/cd9f80f9-e005-4435-8e74-b6c794d49ae8)
-![Model Performance](https://github.com/user-attachments/assets/bd7b98e3-aa04-46df-987d-e2bd15c1f254)
 ![Model Loss](https://github.com/user-attachments/assets/7d5aee34-c3b1-4cd8-8767-1823a608b683)
+![Model Performance](https://github.com/user-attachments/assets/bd7b98e3-aa04-46df-987d-e2bd15c1f254)
+
 
 12. Prediction of the Model
     - We test the model with first 20 testing dataset and compared it with real values
