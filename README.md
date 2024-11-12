@@ -9,19 +9,19 @@ The architure is a simple LTSM based RNN where it have one layers of Bi-directio
 1. Import Packages
    - Import libraries that might be useful for this model (dunno la)
      
-3. Data Loading
+2. Data Loading
    - Load the given dataset
      
-4. Create a pandas dataframe using the CSV file
+3. Create a pandas dataframe using the CSV file
    - Since there is no column name for this file, we created new column names with "Category" and "Product Detail"
      
-5. Preprocess the dataset
+4. Preprocess the dataset
    - Check & remove Null values
    - Check duplicated values
    - set the feauture and label
    - use label encoder to make model understand the classification
      
-6. Train Test Split
+5. Train Test Split
    - Setting the random seed = 42
    - Divide the data set to 70% / 15% / 15%, training, validation, testing
   
